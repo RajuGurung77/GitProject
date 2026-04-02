@@ -1,7 +1,5 @@
 import os
-
-import os
-from pyspark.sql import SparkSession, functions as F
+from pyspark.sql i
 
 BUCKET = "covid19-takeo"
 BRONZE = f"s3a://{BUCKET}/covid/bronze"
